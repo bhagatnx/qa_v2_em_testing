@@ -16,7 +16,7 @@ interface Options {
   driver?: WebDriver;
   /** if no driver is supplied, will check for preferred browser (default chrome) */
   browser?: "chrome" | "firefox";
-  /** some pages may have a base url */
+  /** some pages may hnpmave a base url */
   url?: string;
 }
 
@@ -115,9 +115,10 @@ export class BasePage {
    * page.takeScreenshot("myFolder/mypic")
    * //picture saves in "myFolder" as "mypic.png"
    */
+  //multiple screenshots were taking
   async takeScreenshot(filepath: string) {
     fs.writeFile(
-      `${filepath}.png`,
+      `${__dirname}/screenshot/anotherone.png`,
       await this.driver.takeScreenshot(),
       "base64",
       (e) => {

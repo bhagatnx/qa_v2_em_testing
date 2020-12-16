@@ -1,0 +1,16 @@
+Are these tests stable/will they give us false positives?
+    Some of the tests aren't stable at the moment. When creating a test for employee position, 
+    it will pass even if the position is wrong for the employee. Ex: Bernice Ortiz, CEO. It will pass
+    with Bernice Ortiz, Moneymaker. Also, during test, the application has timed out or the process 
+    was terminated for unknown reasons.
+Do these tests miss bugs you could find manually following the same processes?
+    Automation is not perfect. You will miss bugs that you can find manually. When conducting
+    automation, you are not testing user interaction and basic functionality of the application.
+    With manual testing, you are able to test user interaction and basic functionality, and 
+    are able to find bugs that would have been missed by automation.
+What would you change about the testing if you were given enough time?
+    If given enough time, I would add more timing for manual testing the application and creating simpler
+    basic test for automation. By having several different tests on one file, you are more likely
+    to make an syntax error. By having additional time for manual testing, you are able to thoroughly test the 
+    user interaction and user interface of the application. In the long run, you would save time and fix bugs quicker
+    when it comes to basic functions of the application.
